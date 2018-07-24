@@ -1,0 +1,12 @@
+[{
+    "description": "AngularFeed provides best angular resources to develop Web application. We helps you in all the way to solve and guide you in Developing Web Application, we do backend coding using Node Js. You can explore our work in below articles.",
+    "code": "> npm install -g @angular/cli;\n > ng new project-name;\n > ng serve\n > ng deploy --prod --aot",
+    "testimonials": [
+        {
+            "name": "Chandra Shekher",
+            "designation": "Web Developer",
+            "profile-img": "",
+            "written": "AngularFeed is well covered angular resource. My team and my self are very happy after reading angularfeed material."
+        }
+    ]
+}]

@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Quick Start Angular with Angular CLI",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular",
+        "url": "quickstart_angular_with_angular_cli"
+    },
+    {
+        "title": "Angular application with Angular CLI",
+        "image": "awsnode.png",
+        "technology": "angular",
+        "url": "angular_application_with_cli"
+
+    },
+    {
+        "title": "Dependency Injection in Angular",
+        "image": "node.js-vs-angularjs-blog.png",
+        "technology": "react",
+        "url": "node_and_express_react"
+    },
+    {
+        "title": "Routing in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular",
+        "url": "routing_in_angular"
+    },
+    {
+        "title": "Styling Angular components",
+        "image": "angularnodesetup.jpg",
+        "technology": "react"
+    },
+    {
+        "title": "The difference between Annotations and Decorators",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "View Encapsulation in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Host and Visibility in Angular's Dependency Injection",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Forward references in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "node"
+    },
+    {
+        "title": "Understanding @Injectable in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Upgrading Angular apps using ngUpgrade",
+        "image": "angularnodesetup.jpg",
+        "technology": "react"
+    },
+    {
+        "title": "Multi Providers in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Taking advantage of Observables in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Understanding Zones in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Template-driven Forms in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "node"
+    },
+    {
+        "title": "Custom Validators in Angular",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Angular Change Detection",
+        "image": "angularnodesetup.jpg",
+        "technology": "react"
+    },
+    {
+        "title": "How to prevent name collisions in Angular providers",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Angular Providers using Map Literals",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    },
+    {
+        "title": "Exploring Rx Operators: map",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular"
+    }
+]

@@ -1,0 +1,100 @@
+<div class="highlight-phone" *ngFor="let dashboardData of dashboardData">
+  <div class="highlight-container">
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-7">
+          <div class="intro">
+            <h2> </h2>
+            <p> {{ dashboardData.description }} </p>
+            <a class="btn af-button" role="button" routerLink="/articles"> Articles </a>
+          </div>
+        </div>
+        <div class="col-sm-5 code-block">
+          <div class="d-none d-md-block iphone-mockup">
+              <ngx-prism [language]="language" [hooks] = "hooks" [code]="content" [interpolation]="interpolate">
+                   {{ dashboardData.code }}
+              </ngx-prism>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="container">
+      <iframe class="iframe" src="https://stackblitz.com/edit/angularfeed-1?embed=1&file=src/app/header/header.component.ts&hideNavigation=1&view=editor"></iframe>
+    </div>
+  </div>
+  <div class="features-boxed">
+    <div class="container">
+      <div class="intro">
+        <h2 class="text-center">Features</h2>
+      </div>
+      <div class="row justify-content-center features">
+        <div class="col-sm-6 col-md-5 col-lg-4 item">
+          <div class="box">
+            <i class="fa fa-map-marker icon"></i>
+            <h3 class="name">Works everywhere</h3>
+            <p class="description"> </p>
+            
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-4 item">
+          <div class="box">
+            <i class="fa fa-clock-o icon"></i>
+            <h3 class="name">Always available</h3>
+            <p class="description"> </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-4 item">
+          <div class="box">
+            <i class="fa fa-list-alt icon"></i>
+            <h3 class="name">Customizable</h3>
+            <p class="description"></p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-4 item">
+          <div class="box">
+            <i class="fa fa-leaf icon"></i>
+            <h3 class="name">Safe</h3>
+            <p class="description"></p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-4 item">
+          <div class="box">
+            <i class="fa fa-plane icon"></i>
+            <h3 class="name">Fast</h3>
+            <p class="description"> </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-4 item">
+          <div class="box">
+            <i class="fa fa-phone icon"></i>
+            <h3 class="name">Mobile-first</h3>
+            <p class="description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="testimonials-clean">
+    <div class="container">
+        <div class="intro">
+          <h2 class="text-center">Testimonials</h2>
+          <p class="text-center"> Our reader love us! Read what they have to say below. </p>
+        </div>
+        <div class="row people">
+          <div class="col-md-6 col-lg-4 item" *ngFor="let testimonial of dashboardData.testimonials">
+            <div class="box">
+              <p class="description">{{ testimonial.written }}</p>
+            </div>
+            <div class="author">
+              <img class="rounded-circle" src="assets/images/angularfeed.png" />
+              <h5 class="name">{{ testimonial.name }}</h5>
+              <p class="title">{{ testimonial.designation }}</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

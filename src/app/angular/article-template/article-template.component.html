@@ -1,0 +1,39 @@
+<div class="article-template-container">
+  <div class="container article-tempalate">
+      <div class="row">
+        <div class="col-md-8 article-page" *ngFor="let article of articles">
+              <div class="title article-head">
+                <h4> {{ article.title }} </h4>
+                <p> Posted By : {{ article.postedBy }}</p>
+              </div>
+              <div class="title article-body">
+                <div class="mainindex" *ngFor="let mainIndex of article.index">
+                  <h6 *ngIf="mainIndex.title"> {{ mainIndex.title }} </h6>
+                  <div *ngFor="let subIndex of mainIndex.data">
+                    <p class="introduction"> {{ subIndex.introduction }} </p>
+                    <ngx-prism [language]="language" [hooks]="hooks" [code]="content" [interpolation]="interpolate" *ngIf="subIndex.code_snippet">
+                      {{ subIndex.code_snippet }}
+                    </ngx-prism>
+                    <img class="intro-image" [src]="'assets/images/angular/' + subIndex.image" *ngIf="subIndex.image">
+                    <iframe class="iframe" [src]="subIndex.stackblitz_url | safeUrl" *ngIf="subIndex.stackblitz_url"></iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- <disqus [identifier]="pageId"></disqus> -->
+        </div>
+
+        <div class="col-md-4  article-list">
+          <div class="list-of-articles">
+              <p> List of Articles </p>
+              <div class="articles" *ngFor="let articleList of articleLists">
+                <p>  <a [routerLink]="['/articles', articleList.url]" routerLinkActive="active"> {{ articleList.title }} </a></p>
+              </div>
+              <div class="pagination">
+                <pagination [boundaryLinks]="true" [totalItems]="totalCount.length" (pageChanged)="pageChanged($event)" previousText="&lsaquo;"
+                  nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"></pagination>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

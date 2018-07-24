@@ -1,0 +1,39 @@
+<div class="angular-articles">
+  <div class="container article-container">
+    <div class="total-count"> {{"Total Articles" | uppercase}} - {{ articleTotalCount }} </div>
+    <div class="btn-group" dropdown>
+      <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle search-btn">
+        {{ search | titlecase }}
+        <span class="caret"></span>
+      </button>
+      <ul *dropdownMenu class="dropdown-menu af-dropdown" role="menu">
+        <li role="menuitem" (click)="filterSearch('all')">
+          <a class="dropdown-item">All</a>
+        </li>
+        <li class="divider dropdown-divider"></li>
+        <li role="menuitem" (click)="filterSearch('angular')">
+          <a class="dropdown-item">Angular</a>
+        </li>
+        <li class="divider dropdown-divider"></li>
+        <li role="menuitem" (click)="filterSearch('react')">
+          <a class="dropdown-item">React</a>
+        </li>
+        <li class="divider dropdown-divider"></li>
+        <li role="menuitem" (click)="filterSearch('node')">
+          <a class="dropdown-item">Node</a>
+        </li>
+      </ul>
+      <input type="search" [(ngModel)]="searchList" name="search" class="article-search" placeholder="Search article here..."> 
+    </div>
+    <div class="row article-list">
+      <div class="col-sm-6 col-lg-4 item" *ngFor="let article of (articleList | articleFilter: searchList)">
+        <a class="angular-href" [routerLink]="['/articles', article.url]"> <img class="img-fluid article-images" [src]="'assets/images/angular/' + article.image"> </a>
+        <h5 class="name"> <a class="angular-href" [routerLink]="['/articles', article.url]">  {{ article.title}} </a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <pagination [boundaryLinks]="true" [totalItems]="totalCount.length" (pageChanged)="pageChanged($event)" 
+     previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"></pagination>
+  </div>
+</div>

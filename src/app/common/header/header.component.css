@@ -1,0 +1,40 @@
+
+.navigation-clean-button {
+  background:#fff;
+  padding-top:.75rem;
+  padding-bottom:.25rem;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+  margin-bottom:0;
+  background-color:#37434d;
+  color:#ffffff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 30px;
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.gradient {
+  background: linear-gradient(120deg,#64a45a,#8cbf80);
+  color:#fff;
+}
+
+.brand-name {
+  padding-left: 5px;
+}
+.brand-logo {
+  color: #82cd37 !important;
+}
+
+.af-tabs li a {
+  font-size: 14px;
+  color: #fff;
+}
+a.active {
+   color: #404040 !important; 
+}

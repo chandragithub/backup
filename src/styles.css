@@ -1,0 +1,48 @@
+@import '~prismjs/themes/prism-tomorrow.css';
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #f5f5f5 !important;
+}
+
+.article-container, .article-tempalate {
+  min-height: calc(100vh - 220px);
+  padding: 0 0 0 40px;
+}
+
+.footer {
+  height: 50px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #404040;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #404040;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #404040;
+}
+
+.page-item.active .page-link {
+    background-color: #64a45a !important;
+    border-color: #64a45a !important;
+}
+
+.page-link {
+    color: #404040 !important;
+}
+
+pre[class*="language-"] {
+    border-radius: 0em;
+    border: 0em solid hsl(0, 0%, 33%);
+    box-shadow: none;
+    margin: .5em 0;
+    overflow: auto;
+    padding: 2em 1em 2em 3em;
+    background: #3d3e42;
+}
+ 

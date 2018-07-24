@@ -1,0 +1,12 @@
+[
+    {
+        "postedBy": "ChandraShekher Polimera",
+        "email": "chandrashekher@hotmail.com",
+        "title": "Setup Angular Application with NodeJS",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular",
+        "url": "setup-angular-application-with-node",
+        "code": "function () { \n   let x = 10; \n }",
+        "introduction": "Anuglar is a Javascript Framework which is used to develop single Page Web/Mobile Applications. Angular follows mobile first approach but nowadays its mostly used for Web application development."
+    }
+]

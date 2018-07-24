@@ -1,0 +1,99 @@
+[
+    {
+        "postedBy": "ChandraShekher",
+        "email": "chandrashekher@hotmail.com",
+        "title": "Quick Start Angular with Angular CLI",
+        "image": "angularnodesetup.jpg",
+        "technology": "angular",
+        "url": "quickstart_angular_with_angular_cli",
+        "index":
+        [
+            {
+                "title": "Introduction",
+                "data" : [
+                    {
+                    
+                        "introduction": "Angular is a Single Page Client side JavaScript framework which mainly used Mobile First approach, but nowadays it is widely used to build web application. It is build and supported by Google and has large developer Community.",
+                        "image": "",
+                        "code_snippet": "",
+                        "stackblitz_url": ""
+                    },
+                    {
+                        "introduction": "Angular is one of the fastest, most popular open source web application framework today, and knowing how to use it is essential for web developers and it is widley used JavaScript code in GitHub after React JS and Vue Js. The features of this framework are code splitting, Modularity, Fast, High productivity and performance.",
+                        "image": "risingstar-angular-ranking.png",
+                        "code_snippet": "",
+                        "stackblitz_url": ""
+                    },
+                    {
+                        "introduction": "Angular CLI are widely used automation build, test, packaging and deployment tool for Angular application. It's reduces the manual effort and boost the speed of Angular application development. If you want to explore more about Angular CLI than you can visit Angular CLI official site - https://cli.angular.io. In this article you will learn how to Setup Angular application with Angular CLI (Command Line Interface).",
+                        "image": "",
+                        "code_snippet": "",
+                        "stackblitz_url": ""
+                    }
+                ]
+            },
+            {
+                "title": "Setting up Development Environment",
+                "data": [
+                    {
+                        "introduction": "First we need to download and install latest version of Node Js from nodejs.org - the current version of Node JS is 10.7.0 at the time of writing this Article. If you install Node JS successfully then NPM (Node Package Manager) will comes along with Node Installer.",
+                        "image": "",
+                        "code_snippet": "",
+                        "stackblitz_url": ""
+                    },
+                    {
+                        "introduction": "To check Node successfully installed, Open Command Prompt or Terminal and type",
+                        "image": "",
+                        "code_snippet": "> node --version \n > npm --version",
+                        "stackblitz_url": ""
+                    },
+                    {
+                        "introduction": "Through Angular CLI, We can generate Boilerplate code of Angular application. Before that we need to install Angular CLI global system environment,",
+                        "image": "",
+                        "code_snippet": "> npm install -g @angular/cli@latest \n > ng --version",
+                        "stackblitz_url": ""
+                    }
+                ]
+            },
+            {
+                "title": "How to use Angular CLI",
+                "data": [
+                    {
+                        "introduction": "We are successfully setup our Angular development environment, now we are going to see how Angular CLI application works, Open Command Prompt on Windows or Terminal on Mac and type the following command,",
+                        "image": "",
+                        "code_snippet": "> ng new <-- project name --> \n > cd <-- project name --> \n > ng serve",
+                        "stackblitz_url": ""
+                    },
+                    {
+                        "introduction": "Now you can see the Angular application is successfully up and running on Port 4200 in localhost environment of you system.",
+                        "image": "",
+                        "code_snippet": "",
+                        "stackblitz_url": ""
+                    }
+                ]
+            },
+            {
+                "title": "Increment and Decrement App",
+                "data": [
+                    {
+                        "introduction": "Now we got the boilerplate code for angular Hero app, Now we are going to implement our own code for better understanding with simple “increment and decrement” app example.",
+                        "image": "",
+                        "code_snippet": "",
+                        "stackblitz_url": "https://stackblitz.com/edit/angularfeed-2?embed=1&file=src/app/app.component.html&view=editor"
+                    }
+                ]
+            },
+            {
+                "title": "Conclusion",
+                "data": [
+                    {
+                        "introduction": "Angular is a well grown front end Framework for Web and Mobile application development, Angular CLI is a Angular application development tool which automate the process of development, test, build, packaging and deployment.",
+                        "image": "",
+                        "code_snippet": "",
+                        "stackblitz_url": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
